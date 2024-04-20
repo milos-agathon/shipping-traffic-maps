@@ -18,7 +18,7 @@ download.file(
     mode = "wb"
 )
 
-source("decompress_file.r")
+source("https://raw.githubusercontent.com/milos-agathon/shipping-traffic-maps/main/R/decompress_file.r")
 
 decompress_file(
     directory = getwd(),
